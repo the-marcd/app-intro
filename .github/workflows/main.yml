@@ -45,4 +45,4 @@ jobs:
           uses: docker/build-push-action@v2
           with:
             push: true
-            tags: docker.pkg.github.com/${{ github.repository }}/${{ steps.shortrepo.reposlug }}:${{ steps.shortsha.outputs.sha8 }}
+            tags: docker.pkg.github.com/${{ github.repository }}/${{ steps.shortrepo.outputs.reposlug }}:${{ steps.shortsha.outputs.sha8 }}
