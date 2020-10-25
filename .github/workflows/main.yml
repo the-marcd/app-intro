@@ -34,7 +34,7 @@ jobs:
           with:
             registry: docker.pkg.github.com
             username: ${{ github.repository_owner }}
-            password: ${{ secrets.GH__DOCKER_PAT }}
+            password: ${{ secrets.GH_DOCKER_PAT }}
         
         - name: Build and push container
           id: docker_build
