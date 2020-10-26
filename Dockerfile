@@ -10,5 +10,5 @@ RUN pip install -r requirements.txt
 COPY app/. ${APP_DIR}/
 
 EXPOSE 8000
-# USER nobody
+USER nobody
 CMD ["python3","/opt/app-intro/manage.py","runserver","0.0.0.0:8000"]
