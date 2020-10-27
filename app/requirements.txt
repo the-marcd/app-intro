@@ -1,2 +1,4 @@
 Django==2.2.12
 django-tables2==2.1.1
+psycopg2-binary==2.8.6
+django-iam-dbauth-0.1.2
