@@ -8,7 +8,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'proddb',
-        'HOST': os.environ("DBINSTANCE"),
+        'HOST': 'backenddb.cxdsfyihzdq5.us-east-2.rds.amazonaws.com',
         'USER': 'dbuser',
         'PORT': '5432',
         "OPTIONS": {
